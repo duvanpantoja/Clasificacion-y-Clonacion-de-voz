@@ -32,7 +32,7 @@ bar(Amor,'FaceColor',[0 .5 .5],'EdgeColor',[0 .9 .9],'LineWidth',1.5)
 grid on;
 set(gca,'Fontname','Times New Roman','FontSize',12)
 title('Wavelet Amor','FontSize',17);
-xticklabels({'Duvan','Oscar','ResNet152','InceptionV3','InceptionResNetV2','DenseNet201','Xception','ResNet101','MobileNet',...
+xticklabels({'hablanteA','hablanteB','ResNet152','InceptionV3','InceptionResNetV2','DenseNet201','Xception','ResNet101','MobileNet',...
                         'MobileNetV2','NasNetMobile','EfficientNetB0','EfficientNetB3','EfficientNetB7'})
 ylabel('Porcentaje de Error %','FontSize',15)
 xlabel('MODELOS','FontSize',15)
@@ -45,7 +45,7 @@ bar(Black,'FaceColor',[0 .5 .5],'EdgeColor',[0 .9 .9],'LineWidth',1.5)
 grid on;
 set(gca,'Fontname','Times New Roman','FontSize',12)
 title('Ventana Blackman','FontSize',17);
-xticklabels({'Duvan','Oscar','ResNet152','InceptionV3','InceptionResNetV2','DenseNet201','Xception','ResNet101','MobileNet',...
+xticklabels({'hablanteA','hablanteB','ResNet152','InceptionV3','InceptionResNetV2','DenseNet201','Xception','ResNet101','MobileNet',...
                         'MobileNetV2','NasNetMobile','EfficientNetB0','EfficientNetB3','EfficientNetB7'})
 ylabel('Porcentaje de Error %','FontSize',15)
 xlabel('MODELOS','FontSize',15)
@@ -58,7 +58,7 @@ bar(Bump,'FaceColor',[0 .5 .5],'EdgeColor',[0 .9 .9],'LineWidth',1.5)
 grid on;
 set(gca,'Fontname','Times New Roman','FontSize',12)
 title('Wavelet Bump','FontSize',17);
-xticklabels({'Duvan','Oscar','ResNet152','InceptionV3','InceptionResNetV2','DenseNet201','Xception','ResNet101','MobileNet',...
+xticklabels({'hablanteA','hablanteB','ResNet152','InceptionV3','InceptionResNetV2','DenseNet201','Xception','ResNet101','MobileNet',...
                         'MobileNetV2','NasNetMobile','EfficientNetB0','EfficientNetB3','EfficientNetB7'})
 ylabel('Porcentaje de Error %','FontSize',15)
 xlabel('MODELOS','FontSize',15)
@@ -70,7 +70,7 @@ bar(Hamm,'FaceColor',[0 .5 .5],'EdgeColor',[0 .9 .9],'LineWidth',1.5)
 grid on;
 set(gca,'Fontname','Times New Roman','FontSize',12)
 title('Ventana Hamming','FontSize',17);
-xticklabels({'Duvan','Oscar','ResNet152','InceptionV3','InceptionResNetV2','DenseNet201','Xception','ResNet101','MobileNet',...
+xticklabels({'hablanteA','hablanteB','ResNet152','InceptionV3','InceptionResNetV2','DenseNet201','Xception','ResNet101','MobileNet',...
                         'MobileNetV2','NasNetMobile','EfficientNetB0','EfficientNetB3','EfficientNetB7'})
 ylabel('Porcentaje de Error %','FontSize',15)
 xlabel('MODELOS','FontSize',15)
@@ -83,7 +83,7 @@ bar(Kaiser,'FaceColor',[0 .5 .5],'EdgeColor',[0 .9 .9],'LineWidth',1.5)
 grid on;
 set(gca,'Fontname','Times New Roman','FontSize',12)
 title('Ventana Kaiser','FontSize',17);
-xticklabels({'Duvan','Oscar','ResNet152','InceptionV3','InceptionResNetV2','DenseNet201','Xception','ResNet101','MobileNet',...
+xticklabels({'hablanteA','hablanteB','ResNet152','InceptionV3','InceptionResNetV2','DenseNet201','Xception','ResNet101','MobileNet',...
                         'MobileNetV2','NasNetMobile','EfficientNetB0','EfficientNetB3','EfficientNetB7'})
 ylabel('Porcentaje de Error %','FontSize',15)
 xlabel('MODELOS','FontSize',15)
@@ -95,7 +95,7 @@ bar(Morse,'FaceColor',[0 .5 .5],'EdgeColor',[0 .9 .9],'LineWidth',1.5)
 grid on;
 set(gca,'Fontname','Times New Roman','FontSize',12)
 title('Wavelet Morse','FontSize',17);
-xticklabels({'Duvan','Oscar','ResNet152','InceptionV3','InceptionResNetV2','DenseNet201','Xception','ResNet101','MobileNet',...
+xticklabels({'hablanteA','hablanteB','ResNet152','InceptionV3','InceptionResNetV2','DenseNet201','Xception','ResNet101','MobileNet',...
                         'MobileNetV2','NasNetMobile','EfficientNetB0','EfficientNetB3','EfficientNetB7'})
 ylabel('Porcentaje de Error %','FontSize',15)
 xlabel('MODELOS','FontSize',15)
@@ -127,7 +127,7 @@ b.CData(mbarra,:)=[0.8 0 0.2];
 grid on;
 set(gca,'Fontname','Times New Roman','FontSize',12)
 title('Promedio de precision por Modelo','FontSize',17);
-xticklabels({'Duvan','Oscar','ResNet152','InceptionV3','InceptionResNetV2','DenseNet201','Xception','ResNet101','MobileNet',...
+xticklabels({'hablanteA','hablanteB','ResNet152','InceptionV3','InceptionResNetV2','DenseNet201','Xception','ResNet101','MobileNet',...
                         'MobileNetV2','NasNetMobile','EfficientNetB0','EfficientNetB3','EfficientNetB7'})
 ylabel('Accuracy %','FontSize',15)
 xlabel('MODELO','FontSize',15)
