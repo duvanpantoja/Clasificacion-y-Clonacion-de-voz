@@ -23,6 +23,10 @@ El codigo para adaptar y entrenar estos modelos es https://github.com/duvanpanto
 * EfficientNetB3
 * EfficientNetB7
 
+Si quieres graficar los resultados, el codigo en MATLAB https://github.com/duvanpantoja/Clasificacion-y-Clonacion-de-voz/blob/main/Graficas.m contiene un ejemplo. 
+
+## Clonacion
+
 
 
 
