@@ -26,7 +26,7 @@ El código para adaptar y entrenar estos modelos es https://github.com/duvanpant
 Para graficar los resultados se proporciona un código en MATLAB https://github.com/duvanpantoja/Clasificacion-y-Clonacion-de-voz/blob/main/Graficas.m que contiene un ejemplo. 
 
 ## Clonación
-Para el proceso de clonación se utilizó Redes Generativas Adversarias (GAN) la cual es capaz de aprender a crear contenido dependiendo de cómo haya sido entrenada, en el siguiente ejemplo se entrenó una de estas Redes para crear una imagen a color a partir de una imagen blanco y negro.
+Para el proceso de clonación se utilizó una Red Generativa Adversaria (GAN) la cual es capaz de aprender a crear contenido dependiendo de cómo haya sido entrenada, en el siguiente ejemplo se entrenó una de estas Redes para crear una imagen a color a partir de una imagen blanco y negro.
 
 ![](Img/Flores_300_Iter.gif)
 
