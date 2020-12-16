@@ -35,8 +35,8 @@ Para el clonado de voz se utilizó la misma metodología pero la diferencia radi
 
 <img src="Img/Clonado2.PNG" width="550">
 
-El código de la red GAN es https://github.com/duvanpantoja/Clasificacion-y-Clonacion-de-voz/blob/main/GAN_clonado.py esta puede ser utilizada para transferir el estilo de una imagen a otra, simplemente se deben ingresar las imágenes de entrada y objetivo con el mismo nombre y en entrenar de esta manera la red.
+El código de la red GAN es https://github.com/duvanpantoja/Clasificacion-y-Clonacion-de-voz/blob/main/GAN_clonado.py esta puede ser utilizada para transferir el estilo de una imagen a otra, simplemente se deben ingresar las imágenes de entrada y objetivo con el mismo nombre y entrenar la red.
 
-Una vez generados los espectros fue necesario realizar una etapa de reconstrucción, en el archivo https://github.com/duvanpantoja/Clasificacion-y-Clonacion-de-voz/blob/main/Reconstruccion_Clonado.m realizado en MATLAB, se utiliza la fase de entrada del audio de la imagen de entrada y se combina con el espectro de la imagen generada por la GAN, luego se aplica la transformada inversa iCWT dando como resultado un archivo de audio.
+Una vez generados los espectros fue necesario realizar una etapa de reconstrucción, en el archivo https://github.com/duvanpantoja/Clasificacion-y-Clonacion-de-voz/blob/main/Reconstruccion_Clonado.m realizado en MATLAB, se utiliza la fase del audio de la imagen de entrada y se combina con el espectro de la imagen generada por la GAN, luego se aplica la transformada inversa iCWT dando como resultado un archivo de audio.
 
 
