@@ -1,5 +1,5 @@
 # Clasificación-y-Clonación-de-voz
-En este repositorio proporcionamos la información esencial como datasets y códigos utilizados para realizar clasificación y clonación de la voz.
+En este repositorio se proporciona la información esencial como datasets y códigos utilizados para realizar clasificación y clonación de la voz.
 
 ## Clasificación
 Se planteo realizar el proceso de clasificación entre varias personas utilizando las imágenes del espectro en tiempo frecuencia de su voz, estas imágenes se obtuvieron para 6 transformadas, STFT: Hamming, Blackman, Kaiser y CWT: Bump, Morse, Amor. Este proceso se realizó en el entorno de programación MATLAB, los parámetros y código en general se encuentran en el archivo llamado https://github.com/duvanpantoja/Clasificacion-y-Clonacion-de-voz/blob/main/Transformadas_Audios_clasificacion.m con el cual se obtiene la imagen de cada transformada.
