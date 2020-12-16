@@ -30,11 +30,13 @@ Para el proceso de clonación se utilizó Redes Generativas Adversarias (GAN) la
 
 ![](Img/Flores_300_Iter.gif)
 
-La primera columna son las imagenes de entrada a blanco y negro, la segunda columna contiene las imagenes a las que se desea llegar y en la tercera columna son las imagenes que la red GAN genero.
-Para el clonado de voz se utilizo la misma metodologia pero la diferencia radica en que se ingreso el espectro de voz de un hablante de entrada para que la rede genere el espectro de voz de un hablante objetivo. 
+La primera columna son las imágenes de entrada a blanco y negro, la segunda columna contiene las imágenes a las que se desea llegar y en la tercera columna son las imágenes que la red GAN género.
+Para el clonado de voz se utilizó la misma metodología pero la diferencia radica en que se ingresó el espectro de voz de un hablante de entrada para que la red genere el espectro de voz de un hablante objetivo. 
 
-<img src="Img/Clonado_Git.PNG" width="500">
+<img src="Img/Clonado2.PNG" width="550">
 
+El código de la red GAN es https://github.com/duvanpantoja/Clasificacion-y-Clonacion-de-voz/blob/main/GAN_clonado.py esta puede ser utilizada para transferir el estilo de una imagen a otra, simplemente se deben ingresar las imágenes de entrada y objetivo con el mismo nombre y en entrenar de esta manera la red.
 
+Una vez generados los espectros fue necesario realizar una etapa de reconstrucción, en el archivo https://github.com/duvanpantoja/Clasificacion-y-Clonacion-de-voz/blob/main/Reconstruccion_Clonado.m realizado en MATLAB, se utiliza la fase de entrada del audio de la imagen de entrada y se combina con el espectro de la imagen generada por la GAN, luego se aplica la transformada inversa iCWT dando como resultado un archivo de audio.
 
 
