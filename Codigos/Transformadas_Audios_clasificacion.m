@@ -39,8 +39,8 @@ for (i=1:1:length(fileNames))           %Ciclo que contiene todo el procesamient
  %%   
     % STFT (short-time-fourier-transform)
 % Ventana Hamming BW
-    wlen = 256;                             %Tamaño de la Ventana
-    hop = wlen/4;                             %Tamaño de salto
+    wlen = 256;                             %TamaÃ±o de la Ventana
+    hop = wlen/4;                             %TamaÃ±o de salto
     nfft = 512;                               %Numero de puntos fft
     win = hamming(wlen, 'periodic');          %Ventana Hamming
     x=stft(data(:,1),fs,'Window',win,'OverlapLength',hop,'FFTLength',nfft);  %Se aplica stft con ventana hamming, se obtienen sus coeficientes y su frec 
@@ -49,8 +49,8 @@ for (i=1:1:length(fileNames))           %Ciclo que contiene todo el procesamient
     %I2 = cat(3,I,I,I);                          %opcional si se quiere la imagen en 3 capas (RGB), por defecto una capa (BW)
     imwrite(I2,[let(1:5),'.jpg']);              %se guarda la imagen en la ruta donde esta el archivo matlab
 %% Ventana Blackman BW
-    wlen = 256;                             %Tamaño de la Ventana
-    hop = wlen/4;                             %Tamaño de salto
+    wlen = 256;                             %TamaÃ±o de la Ventana
+    hop = wlen/4;                             %TamaÃ±o de salto
     nfft = 512;                               %Numero de puntos fft
     win = blackman(wlen, 'periodic');          %Ventana Blackman 
     x=stft(data(:,1),fs,'Window',win,'OverlapLength',hop,'FFTLength',nfft);  %Se aplica stft con ventana blackman, se obtienen sus coeficientes y su frec 
@@ -58,8 +58,8 @@ for (i=1:1:length(fileNames))           %Ciclo que contiene todo el procesamient
     I=50*log10(I+1);                            %se aplica una operacion logaritmo para acentuar la imagen
     imwrite(I,['Black_',let(1),'_',num,'.jpg']);  %se guarda la imagen en la ruta donde esta el archivo matlab
 % %% Ventana Kaiser BW
-    wlen = 256;                             %Tamaño de la Ventana
-    hop = wlen/4;                             %Tamaño de salto
+    wlen = 256;                             %TamaÃ±o de la Ventana
+    hop = wlen/4;                             %TamaÃ±o de salto
     nfft = 512;                               %Numero de puntos fft
     win = kaiser(wlen,5);                   %Ventana Kaiser
     x=stft(data(:,1),fs,'Window',win,'OverlapLength',hop,'FFTLength',nfft);  %Se aplica stft con ventana kaiser, se obtienen sus coeficientes y su frec 
@@ -92,8 +92,8 @@ end
 % I=imresize(S,[512 512]); 
 % I2=50*log10(I+1);
 % imshow(I2)
-% wlen = 256;                             %Tamaño de la Ventana
-% hop = wlen/4;                             %Tamaño de salto
+% wlen = 256;                             %TamaÃ±o de la Ventana
+% hop = wlen/4;                             %TamaÃ±o de salto
 % nfft = 512;                               %Numero de puntos fft
 % win = hamming(wlen, 'periodic');          %Ventana Hamming
 % x=stft(data(:,1),fs,'Window',win,'OverlapLength',hop,'FFTLength',nfft);
